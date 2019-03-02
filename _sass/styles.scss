@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body, html {
+  height: 100%;
+}
+
+footer {
+  padding-bottom: 1rem;
+}
+
+#content-area {
+  padding-top: 1rem;
+  background-color: #fffff8;
+  font-family: Palatino;
+}
+
+#sidebar {
+  padding-top: 1rem;
+  color: white;
+  background-color: #2c3e50;
+}
+
+#sidebar a {
+  color: white;
+}

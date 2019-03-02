@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h1>Blog</h1>
+
+<p>This is my blog. There are many others like it, but this one is mine.</p>
+
+<ul>
+  {% for p in site.posts %}
+  <li>
+    <a href="{{p.url}}">{{p.title}}</a>
+  </li>
+  {% endfor %}
+</ul>

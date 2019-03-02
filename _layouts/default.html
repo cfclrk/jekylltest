@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {%- include head.html -%}
+
+  <body>
+
+    <div class="container-fluid h-100">
+      <div class="row h-100">
+
+        <div class="col-sm-3" id="sidebar">
+          {%- include sidebar.html -%}
+        </div>
+
+        <div class="col-sm-9 d-flex flex-column justify-content-between"
+             id="content-area">
+
+          <main aria-label="Content">
+            {{ content }}
+          </main>
+
+          {%- include footer.html -%}
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+
+</html>
