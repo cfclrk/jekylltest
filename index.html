@@ -5,3 +5,11 @@ layout: default
 <h1>My Namespace</h1>
 
 <p>I hereby claim this parcel of the internet.</p>
+
+<ul>
+  {% for p in site.posts %}
+  <li>
+    <a href="{{p.url}}">{{p.title}}</a>
+  </li>
+  {% endfor %}
+</ul>
